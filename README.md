@@ -8,3 +8,7 @@ So to handle this problem we have a Adapter class which adapts `Celsius` tempera
 
 ## Bridge pattern
 To achieve loosely coupled design, from a complex interface hierarchical  logic, We have segregated concerns on design and logic in separate interface. 
+
+## Composite pattern
+Composite pattern allows treating individual and composite objects in same way.
+BookCollection handles composite objects
