@@ -13,7 +13,5 @@ public class Browser {
 
     private static void performClick(Optional<HtmlElement> element) {
         element.ifPresent(HtmlElement::click);
-
     }
-
 }

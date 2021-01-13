@@ -3,9 +3,21 @@ Learning design pattern with the practical implementation
 
 ## Creational Design Pattern
 ### Factory Method Design pattern
-Factory pattern gives flexibility to modify concrete implementation.
+Factory Method pattern gives flexibility to modify concrete implementation.
 `DocumentFactory` is allowing us to loosely coupled the concrete class implementation of HtmlElement logic.
 
+### Builder pattern
+Provides control of the object creation, hides the complexity of assembly
+
+### Singleton Design pattern
+Allows only single object creation for a particular class.
+`Singleton` class is being used to design the pattern
+
+### Prototype Design pattern
+Prototype allows us to hide the complexity of making new instances from the client.
+The concept is to copy an existing object rather than creating a new instance from scratch of the object.
+To implement prototype a class should implement `cloneable` interface.
+`Rabbit` and `Person` class implements the prototype pattern
 
 ## Structural Design pattern
 ### Adapter pattern 
